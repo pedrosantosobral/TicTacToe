@@ -53,6 +53,7 @@ namespace TicTacToe
             if (newState != State.Undecided) return false;
 
             board_states[pos.Row, pos.Column] = newState;
+            
             ChangeTurn();
             return true;
             
