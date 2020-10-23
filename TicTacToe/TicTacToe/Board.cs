@@ -26,7 +26,7 @@ namespace TicTacToe
                 }
             }
         }
-
+        //change player turn by inverting the turns
         public void ChangeTurn()
         {
             if (NextTurn == State.X)
@@ -40,6 +40,7 @@ namespace TicTacToe
 
         }
 
+        //get a state from a position
         public State GetState(Position pos)
         {
             return board_states[pos.Row,pos.Column];
@@ -52,24 +53,10 @@ namespace TicTacToe
             if (newState != State.Undecided) return false;
 
             board_states[pos.Row, pos.Column] = newState;
-            SwitchState();
+            ChangeTurn();
             return true;
             
         }
-
-        public void SwitchState()
-        {
-            if(NextTurn == State.O)
-            {
-                NextTurn = State.X;
-            }
-            else
-            {
-                NextTurn = State.O;
-            }
-        }
-
-
 
     }
 }

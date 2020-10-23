@@ -8,6 +8,7 @@ namespace TicTacToe
     {
         public Position GetPosition(Board currentState)
         {
+
             Console.ReadKey();
             return ;
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#Book\\Exercices\\TictakToe\\TictakToe\\TicTacToe.csproj",
+      "projectUniqueName": "D:\\UnityProjects\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "D:\\C#Book\\Exercices\\TictakToe\\TictakToe\\TicTacToe.csproj",
+      "projectPath": "D:\\UnityProjects\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "D:\\C#Book\\Exercices\\TictakToe\\TictakToe\\obj\\",
+      "outputPath": "D:\\UnityProjects\\TicTacToe\\TicTacToe\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
